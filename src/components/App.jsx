@@ -34,7 +34,7 @@ export class App extends Component{
     countPositiveFeedback = () => {
         this.setState(prevState => {
             return {
-                positivePercentage: Math.round(prevState.good*100/prevState.total),
+                positivePercentage: Math.round(prevState.good*100/prevState.total)+'%',
             }
         })
     }
