@@ -1,0 +1,17 @@
+.list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.item{
+    margin-bottom: 10px;
+}
+
+.item:last-child {
+    margin-bottom: 0;
+}
+
+.description{
+    margin-right: 10px;
+}

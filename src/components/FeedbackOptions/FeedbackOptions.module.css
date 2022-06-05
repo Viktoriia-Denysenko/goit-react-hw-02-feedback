@@ -1,0 +1,15 @@
+.button{
+    margin-right: 20px;
+    font-size: 16px;
+    background-color: #fff;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+
+.button:active{
+    background-color: #0000ff;
+}
