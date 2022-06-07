@@ -17,7 +17,6 @@ export class App extends Component{
                 [option]: prevState[option] + 1,
             }
         });
-      this.countTotalFeedback()
     }
 
     countTotalFeedback = () => {
